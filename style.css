@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+/* Theme Dark Blue Styles */
+:root[data-theme="dark-blue"] {
+    /* Backgrounds */
+    --clr-theme-main-bg: hsl(222, 26%, 31%);
+    --clr-theme-toggle-bg: hsl(223, 31%, 20%);
+    --clr-theme-keypad-bg: hsl(223, 31%, 20%);
+    --clr-theme-screen-bg: hsl(224, 36%, 15%);
+
+    /* Keys */
+    --clr-theme-number-key-bg: hsl(30, 25%, 89%);
+    --clr-theme-number-key-hover-bg: hsl(30, 25%, 99%);
+    --clr-theme-number-key-shadow: hsl(28, 16%, 65%);
+
+    --clr-theme-operator-key-bg: hsl(30, 25%, 89%);
+    --clr-theme-operator-key-hover-bg: hsl(30, 25%, 99%);
+    --clr-theme-operator-key-shadow: hsl(28, 16%, 65%);
+
+    --clr-theme-del-key-bg: hsl(225, 21%, 49%);
+    --clr-theme-del-key-hover-bg: hsl(225, 21%, 59%);
+    --clr-theme-del-key-shadow: hsl(224, 28%, 35%);
+
+    --clr-theme-reset-key-bg: hsl(225, 21%, 49%);
+    --clr-theme-reset-key-hover-bg: hsl(225, 21%, 59%);
+    --clr-theme-reset-key-shadow: hsl(224, 28%, 35%);
+
+    --clr-theme-equal-key-bg: hsl(6, 63%, 50%);
+    --clr-theme-equal-key-hover-bg: hsl(6, 63%, 60%);
+    --clr-theme-equal-key-shadow: hsl(6, 70%, 34%);
+
+    --clr-theme-toggle-circle-bg: hsl(6, 63%, 50%);
+    --clr-theme-toggle-circle-hover-bg: hsl(6, 63%, 60%);
+
+    /* Text */
+    --clr-theme-number-text: hsl(221, 14%, 31%);
+    --clr-theme-operator-text: hsl(221, 14%, 31%);
+    --clr-theme-header-text: hsl(0, 0%, 100%);
+    --clr-theme-del-text: hsl(0, 0%, 100%);
+    --clr-theme-reset-text: hsl(0, 0%, 100%);
+    --clr-theme-equal-text: hsl(0, 0%, 100%);
+}
+
+/* Theme Light Styles */
+:root[data-theme="light"] {
+    /* Backgrounds */
+    --clr-theme-main-bg: hsl(0, 0%, 90%);
+    --clr-theme-toggle-bg: hsl(0, 5%, 81%);
+    --clr-theme-keypad-bg: hsl(0, 5%, 81%);
+    --clr-theme-screen-bg: hsl(0, 0%, 93%);
+
+    /* Keys */
+    --clr-theme-number-key-bg: hsl(30, 25%, 89%);
+    --clr-theme-number-key-hover-bg: hsl(30, 25%, 99%);
+    --clr-theme-number-key-shadow: hsl(28, 16%, 65%);
+
+    --clr-theme-operator-key-bg: hsl(30, 25%, 89%);
+    --clr-theme-operator-key-hover-bg: hsl(30, 25%, 99%);
+    --clr-theme-operator-key-shadow: hsl(28, 16%, 65%);
+
+    --clr-theme-del-key-bg: hsl(185, 42%, 37%);
+    --clr-theme-del-key-hover-bg: hsl(185, 42%, 47%);
+    --clr-theme-del-key-shadow: hsl(185, 58%, 25%);
+
+    --clr-theme-reset-key-bg: hsl(185, 42%, 37%);
+    --clr-theme-reset-key-hover-bg: hsl(185, 42%, 47%);
+    --clr-theme-reset-key-shadow: hsl(185, 58%, 25%);
+
+    --clr-theme-equal-key-bg: hsl(25, 98%, 40%);
+    --clr-theme-equal-key-hover-bg: hsl(25, 98%, 50%);
+    --clr-theme-equal-key-shadow: hsl(25, 99%, 27%);
+
+    --clr-theme-toggle-circle-bg: hsl(25, 98%, 40%);
+    --clr-theme-toggle-circle-hover-bg: hsl(25, 98%, 50%);
+
+    /* Text */
+    --clr-theme-number-text: hsl(60, 10%, 19%);
+    --clr-theme-operator-text: hsl(60, 10%, 19%);
+    --clr-theme-header-text: hsl(60, 10%, 19%);
+    --clr-theme-del-text: hsl(0, 0%, 100%);
+    --clr-theme-reset-text: hsl(0, 0%, 100%);
+    --clr-theme-equal-text: hsl(0, 0%, 100%);
+}
+
+/* Theme Violet Styles */
+:root[data-theme="violet"] {
+    /* Backgrounds */
+    --clr-theme-main-bg: hsl(268, 75%, 9%);
+    --clr-theme-toggle-bg: hsl(268, 71%, 12%);
+    --clr-theme-keypad-bg: hsl(268, 71%, 12%);
+    --clr-theme-screen-bg: hsl(268, 71%, 12%);
+
+    /* Keys */
+    --clr-theme-number-key-bg: hsl(268, 47%, 21%);
+    --clr-theme-number-key-hover-bg: hsl(268, 47%, 31%);
+    --clr-theme-number-key-shadow: hsl(290, 70%, 36%);
+
+    --clr-theme-operator-key-bg: hsl(268, 47%, 21%);
+    --clr-theme-operator-key-hover-bg: hsl(268, 47%, 31%);
+    --clr-theme-operator-key-shadow: hsl(290, 70%, 36%);
+
+    --clr-theme-del-key-bg: hsl(281, 89%, 26%);
+    --clr-theme-del-key-hover-bg: hsl(281, 89%, 36%);
+    --clr-theme-del-key-shadow: hsl(285, 91%, 52%);
+
+    --clr-theme-reset-key-bg: hsl(281, 89%, 26%);
+    --clr-theme-reset-key-hover-bg: hsl(281, 89%, 36%);
+    --clr-theme-reset-key-shadow: hsl(285, 91%, 52%);
+
+    --clr-theme-equal-key-bg: hsl(176, 100%, 44%);
+    --clr-theme-equal-key-hover-bg: hsl(176, 100%, 54%);
+    --clr-theme-equal-key-shadow: hsl(177, 92%, 70%);
+
+    --clr-theme-toggle-circle-bg: hsl(176, 100%, 44%);
+    --clr-theme-toggle-circle-hover-bg: hsl(176, 100%, 54%);
+
+    /* Text */
+    --clr-theme-number-text: hsl(52, 100%, 62%);
+    --clr-theme-operator-text: hsl(52, 100%, 62%);
+    --clr-theme-header-text: hsl(52, 100%, 62%);
+    --clr-theme-del-text: hsl(0, 0%, 100%);
+    --clr-theme-reset-text: hsl(0, 0%, 100%);
+    --clr-theme-equal-text: hsl(198, 20%, 13%);
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, 
+.calc, 
+.calc__header, 
+.calc__toggle-controller, 
+.calc__output-screen, 
+.calc__output--accumulated, 
+.calc__output--current, 
+.calc__input-keypad, 
+.calc__input-key {
+    transition: background-color 0.5s, color 0.3s;
+}
+
+body {
+    background-color: var(--clr-theme-main-bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    background-color: var(--clr-theme-main-bg);
+    width: clamp(330px, 30%, 1440px);
+    height: clamp(375px, 700px, 900px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-top: auto;
+}
+
+.calc__header {
+    width: 100%;
+    background-color: var(--clr-theme-main-bg);
+    color: var(--clr-theme-header-text);
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+}
+
+.calc__toggle-container {
+    border: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+#calc__theme-title {
+    line-height: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.calc__toggle-labels {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    bottom: 1rem;
+}
+
+.calc__toggle-controller {
+    background-color: var(--clr-theme-toggle-bg);
+    height: 2rem;
+    width: 5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.calc__toggle-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: .5rem;
+}
+
+.calc__toggle-btns > input {
+    appearance: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 3rem;
+    pointer-events: none;
+}
+
+.calc__toggle-btn--dark-blue {
+    left: 1rem;
+}
+
+.calc__toggle-btn--light {
+    left: 3rem;
+}
+
+.calc__toggle-btn--violet {
+    left: 5rem;
+}
+
+.calc__toggle-btns>input:checked {
+    background-color: var(--clr-theme-toggle-circle-bg);
+    transition-duration: .5s;
+}
+
+.calc__toggle-btns>input:checked:hover {
+    background-color: var(--clr-theme-toggle-circle-hover-bg);
+}
+
+.calc__output-screen {
+    width: 100%;
+    height: 10rem;
+    background-color: var(--clr-theme-screen-bg);
+    color: var(--clr-theme-header-text);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    overflow: auto;
+}
+
+.calc__output--accumulated {
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.calc__output--current {
+    font-size: 3rem;
+    margin-right: 1.5rem;
+}
+
+.calc__input-keypad {
+    width: 100%;
+    height: clamp(330px, 550px, 700px);
+    background-color: var(--clr-theme-keypad-bg);
+    border-radius: 9px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: clamp(1.2rem, 2vw, 1.7rem);
+    padding: 2rem;
+}
+
+.calc__input-key {
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.calc__input-key:hover {
+    cursor: pointer;
+}
+
+.calc__input-key:active {
+    transform: translateY(4px);
+    box-shadow: none !important;
+}
+
+.calc__input-key[name="number"] {
+    background-color: var(--clr-theme-number-key-bg);
+    color: var(--clr-theme-number-text);
+    box-shadow: 0px 3px var(--clr-theme-number-key-shadow);
+    font-size: xx-large;
+}
+
+.calc__input-key[name="number"]:hover {
+    background-color: var(--clr-theme-number-key-hover-bg);
+}
+
+.calc__input-key[name="operator"] {
+    background-color: var(--clr-theme-operator-key-bg);
+    color: var(--clr-theme-operator-text);
+    box-shadow: 0px 3px var(--clr-theme-operator-key-shadow);
+    font-size: xx-large;
+}
+
+.calc__input-key[name="operator"]:hover {
+    background-color: var(--clr-theme-operator-key-hover-bg);
+}
+
+.calc__input-key[name="delete"] {
+    background-color: var(--clr-theme-del-key-bg);
+    color: var(--clr-theme-del-text);
+    box-shadow: 0px 3px var(--clr-theme-del-key-shadow);
+    font-size: x-large;
+}
+
+.calc__input-key[name="delete"]:hover {
+    background-color: var(--clr-theme-del-key-hover-bg);
+}
+
+.calc__input-key[name="reset"] {
+    grid-column: span 2;
+    background-color: var(--clr-theme-reset-key-bg);
+    color: var(--clr-theme-reset-text);
+    box-shadow: 0px 3px var(--clr-theme-reset-key-shadow);
+    font-size: x-large;
+}
+
+.calc__input-key[name="reset"]:hover {
+    background-color: var(--clr-theme-reset-key-hover-bg);
+}
+
+.calc__input-key[name="="] {    
+    grid-column: span 2;
+    background-color: var(--clr-theme-equal-key-bg);
+    color: var(--clr-theme-equal-text);
+    box-shadow: 0px 3px var(--clr-theme-equal-key-shadow);
+    font-size: x-large;
+}
+
+.calc__input-key[name="="]:hover {
+    background-color: var(--clr-theme-equal-key-hover-bg);
+}   
+
+footer {
+    position: relative;
+    bottom: 2rem;
+    margin-top: auto;
+}
+
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--clr-theme-header-text);
+}
+
+.attribution a {
+    color: var(--clr-theme-equal-key-bg);
+}
+
+/* Adjust the gap for smaller screens */
+@media screen and (max-width: 768px) {
+    .calc__input-keypad {
+        gap: clamp(0.8rem, 2vw, 1.2rem);
+    }
+}
+
+/* Further adjust the gap for even smaller screens */
+@media screen and (max-width: 480px) {
+    .calc__input-keypad {
+        gap: clamp(0.5rem, 2vw, 0.8rem);
+    }
+}

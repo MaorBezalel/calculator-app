@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark-blue">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <main class="calc">
+      <header class="calc__header">
+        <h1>calc</h1>
+        <fieldset class="calc__toggle-container" aria-label="theme toggle" role="radiogroup">
+          <h5 id="calc__theme-title">THEME</h5>
+          <div class="calc__toggle-controller">
+            <section class="calc__toggle-labels">
+              <label for="calc__toggle-btn--dark-blue">1</label>
+              <label for="calc__toggle-btn--light">2</label>
+              <label for="calc__toggle-btn--violet">3</label>
+            </section>
+            <section class="calc__toggle-btns">
+              <input type="radio" name="calc__toggle-btn" class="calc__toggle-btn--dark-blue" checked>
+              <input type="radio" name="calc__toggle-btn" class="calc__toggle-btn--light">
+              <input type="radio" name="calc__toggle-btn" class="calc__toggle-btn--violet">
+            </section>
+          </div>
+        </fieldset>
+      </header>
+      <section class="calc__output-screen">
+        <output class="calc__output--accumulated"></output>
+        <output class="calc__output--current"></output>
+      </section>
+      <section class="calc__input-keypad">
+        <button class="calc__input-key" name="number" value="7">7</button>
+        <button class="calc__input-key" name="number" value="8">8</button>
+        <button class="calc__input-key" name="number" value="9">9</button>
+        <button class="calc__input-key" name="delete" value="DEL">DEL</button>
+        <button class="calc__input-key" name="number" value="4">4</button>
+        <button class="calc__input-key" name="number" value="5">5</button>
+        <button class="calc__input-key" name="number" value="6">6</button>
+        <button class="calc__input-key" name="operator" value="+">+</button>
+        <button class="calc__input-key" name="number" value="1">1</button>
+        <button class="calc__input-key" name="number" value="2">2</button>
+        <button class="calc__input-key" name="number" value="3">3</button>
+        <button class="calc__input-key" name="operator" value="-">-</button>
+        <button class="calc__input-key" name="operator" value=".">.</button>
+        <button class="calc__input-key" name="number" value="0">0</button>
+        <button class="calc__input-key" name="operator" value="/">/</button>
+        <button class="calc__input-key" name="operator" value="x">x</button>
+        <button class="calc__input-key" name="reset" value="RESET">RESET</button>
+        <button class="calc__input-key" name="=" value="=">=</button>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/MaorBezalel">Maor Bezalel</a>.
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
